@@ -1,5 +1,6 @@
 account-reconcile
 connector
+server-backend
 server-tools
 server-auth
 e-commerce
@@ -9,3 +10,16 @@ product-variant
 storage https://github.com/akretion/storage 12.0
 base_rest https://github.com/oca/rest-framework 12.0
 odoo-misc https://github.com/shopinvader/odoo-misc 12.0
+
+# TODO: REMOVE ME
+# https://github.com/shopinvader/odoo-misc/pull/2
+base_sparse_field_list_support https://github.com/acsone/odoo-misc 12.0-mig_base_sparse_field_list_support-dro
+
+# https://github.com/shopinvader/odoo-shopinvader/pull/318
+base_url https://github.com/acsone/odoo-shopinvader 12.0-mig_base_url-dro
+
+# https://github.com/OCA/server-tools/pull/1461
+onchange_helper https://github.com/acsone/server-tools 12.0-mig-onchange_helper
+
+# https://github.com/OCA/sale-workflow/pull/821
+sale_discount_display_amount https://github.com/Abranes/sale-workflow 12.0-mig-sale_discount_display_amount
