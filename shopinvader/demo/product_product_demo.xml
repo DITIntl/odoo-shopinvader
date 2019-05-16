@@ -66,7 +66,7 @@
         <field name="uom_po_id" ref="product.product_uom_unit"></field>
         <field name="list_price">79.99</field>
         <field name="standard_price">79.99</field>
-        <field name="default_code"></field>
+        <field name="default_code">SHPINVDR-269</field>
         <field name="type">consu</field>
     </record>
 
@@ -161,7 +161,7 @@
         <field name="uom_po_id" ref="product.product_uom_unit"></field>
         <field name="list_price">1.0</field>
         <field name="standard_price">0</field>
-        <field name="default_code"></field>
+        <field name="default_code">SHPECCC-55</field>
         <field name="type">consu</field>
     </record>
 
