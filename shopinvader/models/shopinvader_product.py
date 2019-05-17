@@ -93,8 +93,8 @@ class ShopinvaderProduct(models.Model):
             for categ in categs:
                 parents = self.env["shopinvader.category"].search(
                     [
-                        ("parent_left", "<=", categ.parent_left),
-                        ("parent_right", ">=", categ.parent_right),
+                        ("record_id.parent_left", "<=", categ.parent_left),
+                        ("record_id.parent_right", ">=", categ.parent_right),
                         ("backend_id", "=", record.backend_id.id),
                         ("lang_id", "=", record.lang_id.id),
                     ]
